@@ -1,4 +1,4 @@
-# **Documentação Semântica**
+# Documentação Semântica
 
 No ecossistema de desenvolvimento agêntico do Google, o arquivo **`DESIGN.md`** é descrito como a **"Fonte da Verdade" (Source of Truth)** técnica e estética, servindo como o pilar central de uma estratégia de **Documentação Semântica**. Sua função principal é traduzir ativos técnicos complexos em uma linguagem que tanto humanos quanto IAs (como o Google Stitch e [[Antigravity]]) compreendam perfeitamente, garantindo que novos componentes ou telas sigam rigorosamente o padrão visual estabelecido.
 

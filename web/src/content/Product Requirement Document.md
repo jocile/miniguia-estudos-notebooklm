@@ -1,4 +1,4 @@
-# Inteligencia-artificial  #Projeto #Antigravity #sdd
+# Documento de Requisitos do Produto
 
 ## Entendendo o Product Requirement Document (PRD) na Era da IA
 
