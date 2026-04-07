@@ -10,7 +10,7 @@
 
 ## 🔗 Link do Projeto
 
-[Miniguia de Estudos](https://jocil.github.io/miniguia-estudos-notebooklm/)
+[Miniguia de Estudos](https://jocile.github.io/miniguia-estudos-notebooklm/)
 
 ## 📖 Descrição
 
