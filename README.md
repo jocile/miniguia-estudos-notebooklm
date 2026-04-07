@@ -1,11 +1,16 @@
 # 📚 Miniguia de Estudos: Desenvolvimento Agêntico e Orquestração de IA
 
+![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=for-the-badge&logo=github&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 ![AI](https://img.shields.io/badge/Artificial%20Intelligence-blue?style=for-the-badge)
+
+## 🔗 Link do Projeto
+
+[Miniguia de Estudos](https://jocil.github.io/miniguia-estudos-notebooklm/)
 
 ## 📖 Descrição
 
