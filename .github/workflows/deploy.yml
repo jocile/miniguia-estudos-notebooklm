@@ -34,6 +34,7 @@ jobs:
         with:
           static_site_generator: next
           generator_config_file: web/next.config.ts
+          enablement: true
       - name: Restore cache
         uses: actions/cache@v4
         with:
