@@ -13,6 +13,23 @@ O **Miniguia de Estudos** é um projeto interativo construído com Next.js que f
 
 A plataforma em si foi projetada para atuar como um Web App fluído que consome, renderiza e formata arquivos Markdown diretamente, fornecendo um ambiente de estudos otimizado para desenvolvedores explorarem abordagens agênticas e engenharia de contexto.
 
+## 🔗 Links e Conteúdo do Repositório
+
+As seguintes fontes em formato Markdown formam a [base de conhecimento deste repositório](web/src/content/). Clique nelas para acessar os conteúdos integrais:
+
+1. 📄 **[Product Requirement Document](web/src/content/Product%20Requirement%20Document.md)**  
+   *Descrição:* Explora o PRD como um "cérebro" dinâmico e focado no "o que" desenvolver contra aumento de escopo para as IAs.
+2. 📄 **[Documentação Semântica](web/src/content/Documenta%C3%A7%C3%A3o%20Sem%C3%A2ntica.md)**  
+   *Descrição:* Aborda como traduzir intenções visuais para que a IA atue esteticamente compreendendo referências.
+3. 📄 **[Spec Driven Development](web/src/content/Spec%20Driven%20Development.md)**  
+   *Descrição:* Detalha o framework SDD para escalar softwares construídos com inteligência paralela.
+4. 📄 **[Glossário](web/src/content/Glossario.md)**  
+   *Descrição:* Definições dos principais conceitos, como RPI, MCP, Subagentes e "Constituição" sistêmica.
+5. 📄 **[Recursos - PRD](web/src/content/Recursos-PRD.md)**  
+   *Descrição:* Resursos e materiais visando dar apoio na formulação dos PRDs.
+6. 📄 **[Metodologia SDD](web/src/content/Metodologia-sdd.md)**  
+   *Descrição:* Explicação detalhada sobre as fases, princípios e anti-padrões da metodologia Spec-Driven Development.
+
 ## 🚀 Instalação e Uso
 
 Para executar e ler o Miniguia localmente, você precisa ter o [Node.js](https://nodejs.org/) instalado. Recomendamos a utilização de um gerenciador de pacotes como `pnpm` ou `npm`.
