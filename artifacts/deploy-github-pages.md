@@ -1,6 +1,6 @@
 # Configuração de Deploy para o GitHub Pages
 
-Esta documentação descreve todas as etapas e modificações necessárias que foram feitas para habilitar o deploy automático da aplicação Next.js (pasta `web`) no GitHub Pages usando o repositório como servidor (`https://jocil.github.io/miniguia-estudos-notebooklm/`).
+Esta documentação descreve todas as etapas e modificações necessárias que foram feitas para habilitar o deploy automático da aplicação Next.js (pasta `web`) no GitHub Pages usando o repositório como servidor (<https://jocile.github.io/miniguia-estudos-notebooklm/>).
 
 ## 1. Ajustes no Next.js (`web/next.config.ts`)
 
@@ -11,6 +11,7 @@ Para hospedar o Next.js no GitHub Pages, o framework precisa criar arquivos est�
 - **Configuração Dinâmica de Base Path**: O GitHub Pages utiliza o nome do repositório na URL final. Configuramos `basePath` dinamicamente: se o código roda no GitHub Actions (via `process.env.GITHUB_ACTIONS`), apontamos para `"/miniguia-estudos-notebooklm"`. Assim o site funciona na nuvem e o `npm run dev` local não para de funcionar na raiz (`/`).
 
 **Código Configurado:**
+
 ```typescript
 import type { NextConfig } from "next";
 
@@ -49,6 +50,6 @@ Sempre que a aplicação for montada pela primeira vez, convém validar a config
 
 ## 4. O Sistema de Rotas Interno (Link genérico do Next.js)
 
-O Front-End precisava ser nativamente desenhado usando os componentes do Next.js para usufruir da configuração sem dor de cabeça. 
+O Front-End precisava ser nativamente desenhado usando os componentes do Next.js para usufruir da configuração sem dor de cabeça.
 
 Como as páginas (`page.tsx` e `layout.tsx`) usavam a tag `<Link href="...">` nativa da biblioteca `next/link` em vez de tags `<a>` normais, o Next.js injetou automaticamente a configuração de subdiretório em todas as referências para outras rotas e assets (deixando todos os *hrefs* como `/miniguia-estudos-notebooklm/slug` no código da nuvem), tornando a infraestrutura do GitHub totalmente transparente para o código React.

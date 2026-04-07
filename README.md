@@ -113,10 +113,25 @@ A forma mais simples de hospedar o projeto gratuitamente e para visualização a
 
 Uma vez publicado, atualizações na pasta `content` no repositório gerarão um novo deploy atualizado.
 
+### Deploy no GitHub Pages
+
+A documentação completa técnica de como esse projeto foi estruturado para suportar o deploy está detalhada no artefato interno: [Deploy no GitHub Pages](artifacts/deploy-github-pages.md).
+
+Para publicar o seu próprio fork ou versão deste repositório, basta seguir os seguintes passos:
+
+1. Modifique, se necessário, os arquivos Markdown em `web/src/content`.
+2. Faça o push das alterações para a branch `main`.
+3. Acesse seu repositório no GitHub e vá até a aba **Settings** (Configurações).
+4. No menu lateral esquerdo, selecione a aba **Pages**.
+5. Na seção **Build and deployment**, altere o **Source** (Fonte) de "Deploy from a branch" para **GitHub Actions**.
+
+Com isso, sempre que houver novos commits na branch `main`, a Action definida em `.github/workflows/deploy.yml` fará a compilação de tudo e publicará o site estático no seu link pessoal `https://<seu-usuario>.github.io/<repositorio>/`.
+
 ## Artefatos do Projeto
 
 - [Implementation Plan](artifacts/implementation_plan.md)
 - [Walkthrough](artifacts/walkthrough.md)
+- [Deploy no GitHub Pages](artifacts/deploy-github-pages.md)
 
 ---
 
